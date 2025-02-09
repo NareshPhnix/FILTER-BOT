@@ -87,7 +87,7 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Us
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+HEu8FtLylFsxYWZl')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/a1pher')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/mviequery') # Support Chat Link Without https:// or @
-OWNER_LNK = environ.get('OWNER_LNK', '@Scorpsnights')
+OWNER_LNK = environ.get('OWNER_LNK', 'Scorpsnights')
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
@@ -103,7 +103,7 @@ SPELL_CHECK_REPLY = bool(environ.get("SPELL_CHECK_REPLY", True))
 MELCOW_NEW_USERS = bool(environ.get('MELCOW_NEW_USERS', True))
 PROTECT_CONTENT = bool(environ.get('PROTECT_CONTENT', False))
 PUBLIC_FILE_STORE = bool(environ.get('PUBLIC_FILE_STORE', True))
-NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
+NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", True))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 
